@@ -4,7 +4,7 @@ import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 export class City {
   @PrimaryGeneratedColumn()
   id: number;
-
+  // add a comment in line 7
   @Column({ unique: true })
   name: string;
 
