@@ -14,3 +14,5 @@ export class City {
   @Column({ type: 'boolean', default: true })
   active: boolean;
 }
+
+export class District {}
